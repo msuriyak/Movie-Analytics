@@ -47,12 +47,12 @@ class IMDb(object):
                 page_link = 'http://www.imdb.com' + movie.find('a').get('href')
         return page_link
 
-    def collect_data(self, title='', year='', link='', max_attempts=3, timeout=2):
+    def collect_data(self, title='', year='', link='', max_attempts=3, timeout=2, timeout_search=1.5, max_attempts_search=3):
         if title == '' and year == '' and link == '' :
             msg = 'Year and title cannot be empty if URL is not provided'
             raise ValueError(msg)
         if link == '' :
-                link = self.search_title(title, year, timeout=timeout, max_attempts=max_attempts)
+                link = self.search_title(title, year, timeout=timeout_search, max_attempts=max_attempts_search)
         
         attempts = 0
         print('Retriving URL ...')
@@ -137,12 +137,13 @@ class IMDb(object):
         return json.dumps(result, indent=4, sort_keys=True)
 
 
-temp = IMDb()
-temp.collect_data('the rainmaker', 1997)
-#temp.collect_data(link)
+if __name__ == '__main__' :    
+    temp = IMDb()
+    temp.collect_data('the rainmaker', 1997)
+    #temp.collect_data(link)
 
-print('\n')
+    print('\n')
 
-temp = IMDb()
-temp.collect_data('la la land', 2016)
-#temp.collect_data(link)
+    temp = IMDb()
+    temp.collect_data('la la land', 2016)
+    #temp.collect_data(link)
