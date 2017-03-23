@@ -1,12 +1,9 @@
 from __future__ import division
-import string
-import numpy as np
-import pandas as pd
 import urllib
 from bs4 import BeautifulSoup as bs
 import re
 import json
-import xml
+from oscar_movies import *
 
 class IMDb(object):
     def __init__(self, title='', year='', lang='en'):
@@ -39,6 +36,9 @@ class IMDb(object):
             raise RuntimeError(msg)
 
         soup = bs(html, 'html.parser')
+        if 'No results' in soup.find('div', {'class' : 'lister-item'}).text : 
+            msg = 'No results found!!'
+            raise RuntimeError(msg)
         movie_matches = soup.findAll('h3', { 'class' : 'lister-item-header' })  
         for movie in movie_matches :
             name = movie.find('a').text
@@ -47,7 +47,7 @@ class IMDb(object):
                 page_link = 'http://www.imdb.com' + movie.find('a').get('href')
         return page_link
 
-    def collect_data(self, title='', year='', link='', max_attempts=3, timeout=2, timeout_search=1.5, max_attempts_search=3):
+    def collect_data(self, title='', year='', link='', max_attempts=2, timeout=3, timeout_search=3, max_attempts_search=2):
         if title == '' and year == '' and link == '' :
             msg = 'Year and title cannot be empty if URL is not provided'
             raise ValueError(msg)
@@ -88,19 +88,28 @@ class IMDb(object):
 
         self.rating = float(soup.find('span', {'itemprop' : 'ratingValue'}).text)
         self.ratingCount = int(''.join(soup.find('span', {'class' : 'small', 'itemprop' : 'ratingCount'}).text.split(',')))
-        self.metascore = int(soup.find('div', {'class' : 'metacriticScore score_favorable titleReviewBarSubItem'}).find('span').text)
+        try :
+            self.metascore = int(soup.find('div', {'class' : 'metacriticScore score_favorable titleReviewBarSubItem'}).find('span').text)
+        except Exception  as e:
+            self.metascore = 'NA'
 
         table = soup.find('table', {'class' : 'cast_list'})
         self.cast = [actor.text for actor in table.findAll('span', {'class' : 'itemprop', 'itemprop' : 'name'})]
         
         temp = soup.findAll('div', {'class' : 'txt-block'}) 
-        #soup.findAll('h4', {'class' : 'inline'})
         for item in temp :
             term = item.find('h4', {'class' : 'inline'})
             
             if term == None :
                 continue
-            
+            self.country = 'NA'  
+            self.languages = 'NA'
+            self.release_date = 'NA'
+            self.budget = 'NA'
+            self.opening_weekend = 'NA'
+            self.gross = 'NA'
+            self.runtime = 'NA'
+
             term = term.text
             if 'Country' in term :
                 self.country = [country.text for country in item.findAll('a')]
@@ -118,32 +127,49 @@ class IMDb(object):
                 self.runtime = item.find('time', {'itemprop' : 'duration'}).text
 
     def make_json(self):
-        result = {'UID'          : self.uid,
-                  'Title'        : self.title,
-                  'Year'         : self.year, 
-                  'Language'     : self.languages,
-                  'Release Date' : self.release_date,
-                  'Director'     : self.director,   
-                  'Writer'       : self.writer,
-                  'Rating'       : self.rating,
-                  'Rating Count' : self.ratingCount,
-                  'Metascore'    : self.metascore,
-                  'Cast'         : self.cast,
-                  'Country'      : self.country,
-                  'Budget'       : self.budget,
-                  'Gross'        : self.gross,
-                  'Runtime'      : self.runtime
+        result = {'UID'             : self.uid,
+                  'Title'           : self.title,
+                  'Year'            : self.year, 
+                  'Language'        : self.languages,
+                  'Release Date'    : self.release_date,
+                  'Director'        : self.director,   
+                  'Writer'          : self.writer,
+                  'Rating'          : self.rating,
+                  'Rating Count'    : self.ratingCount,
+                  'Metascore'       : self.metascore,
+                  'Cast'            : self.cast,
+                  'Country'         : self.country,
+                  'Budget'          : self.budget,
+                  'Opening weekend' : self.opening_weekend,
+                  'Gross'           : self.gross,
+                  'Runtime'         : self.runtime
                   }
         return json.dumps(result, indent=4, sort_keys=True)
 
 
 if __name__ == '__main__' :    
+    '''
     temp = IMDb()
     temp.collect_data('the rainmaker', 1997)
-    #temp.collect_data(link)
 
     print('\n')
 
     temp = IMDb()
     temp.collect_data('la la land', 2016)
-    #temp.collect_data(link)
+    '''
+
+    successful = []
+    failed = []
+    temp = IMDb()
+    for item in get_all_oscar_movies():
+        item = json.loads(item)
+        if item['Winner'] == 1:
+            try :
+                temp.collect_data(item['Name'], item['Year'])
+                successful.append(temp.make_json())
+            except Exception as e :
+                failed.append(item)
+                print('\t\t\tFailed in %d' %(item['Year']))
+
+    for item in failed:
+        print(item['Year'])
