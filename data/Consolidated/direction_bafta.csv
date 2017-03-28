@@ -1,0 +1,211 @@
+year,name,film
+2016,Damien Chazelle,La La Land
+2016,Tom Ford,Nocturnal Animals
+2016,Ken Loach,"I, Daniel Blake"
+2016,Kenneth Lonergan,Manchester by the Sea
+2016,Denis Villeneuve,Arrival
+2015,Alejandro G. Irritu,The Revenant
+2015,Todd Haynes,Carol
+2015,Adam McKay,The Big Short
+2015,Ridley Scott,The Martian
+2015,Steven Spielberg,Bridge of Spies
+2014,Richard Linklater,Boyhood
+2014,Wes Anderson,The Grand Budapest Hotel
+2014,Damien Chazelle,Whiplash
+2014,Alejandro G. Irritu,Birdman
+2014,James Marsh,The Theory of Everything
+2013,Alfonso Cuarn,Gravity
+2013,Paul Greengrass,Captain Phillips
+2013,Steve McQueen,12 Years a Slave
+2013,David O. Russell,American Hustle
+2013,Martin Scorsese,The Wolf of Wall Street
+2012,Ben Affleck,Argo
+2012,Kathryn Bigelow,Zero Dark Thirty
+2012,Michael Haneke,Amour
+2012,Ang Lee,Life of Pi
+2012,Quentin Tarantino,Django Unchained
+2011,Michel Hazanavicius,The Artist
+2011,Tomas Alfredson,Tinker Tailor Soldier Spy
+2011,Lynne Ramsay,We Need to Talk About Kevin
+2011,Nicolas Winding Refn,Drive
+2011,Martin Scorsese,Hugo
+2010,David Fincher,The Social Network
+2010,Darren Aronofsky,Black Swan
+2010,Danny Boyle,127 Hours
+2010,Tom Hooper,The King's Speech
+2010,Christopher Nolan,Inception
+2009,Kathryn Bigelow,The Hurt Locker
+2009,Neill Blomkamp,District 9
+2009,James Cameron,Avatar
+2009,Lone Scherfig,An Education
+2009,Quentin Tarantino,Inglourious Basterds
+2008,Danny Boyle,Slumdog Millionaire
+2008,Stephen Daldry,The Reader
+2008,Clint Eastwood,Changeling
+2008,David Fincher,The Curious Case of Benjamin Button
+2008,Ron Howard,Frost/Nixon
+2007,Joel Coen and Ethan Coen,No Country for Old Men
+2007,Paul Thomas Anderson,There Will Be Blood
+2007,Paul Greengrass,The Bourne Ultimatum
+2007,Florian Henckel von Donnersmarck,The Lives of Others (Das Leben der Anderen)
+2007,Joe Wright,Atonement
+2006,Paul Greengrass,United 93
+2006,Jonathan Dayton and Valerie Faris,Little Miss Sunshine
+2006,Stephen Frears,The Queen
+2006,Alejandro Gonzlez Irritu,Babel
+2006,Martin Scorsese,The Departed
+2005,Ang Lee,Brokeback Mountain
+2005,George Clooney,"Good Night, and Good Luck"
+2005,Paul Haggis,Crash
+2005,Fernando Meirelles,The Constant Gardener
+2005,Bennett Miller,Capote
+2004,Mike Leigh,Vera Drake
+2004,Marc Forster,Finding Neverland
+2004,Michel Gondry,Eternal Sunshine of the Spotless Mind
+2004,Michael Mann,Collateral
+2004,Martin Scorsese,The Aviator
+2003,Peter Weir,Master and Commander: The Far Side of the World
+2003,Tim Burton,Big Fish
+2003,Sofia Coppola,Lost in Translation
+2003,Peter Jackson,The Lord of the Rings: The Return of the King
+2003,Anthony Minghella,Cold Mountain
+2002,Roman Polanski,The Pianist
+2002,Stephen Daldry,The Hours
+2002,Peter Jackson,The Lord of the Rings: The Two Towers
+2002,Rob Marshall,Chicago
+2002,Martin Scorsese,Gangs of New York
+2001,Peter Jackson,The Lord of the Rings: The Fellowship of the Ring
+2001,Robert Altman,Gosford Park
+2001,Ron Howard,A Beautiful Mind
+2001,Jean-Pierre Jeunet,Amlie (Le Fabuleux destin d'Amlie Poulain)
+2001,Baz Luhrmann,Moulin Rouge!
+2000,Ang Lee,"Crouching Tiger, Hidden Dragon (Wo hu cang long)"
+2000,Stephen Daldry,Billy Elliot
+2000,Ridley Scott,Gladiator
+2000,Steven Soderbergh,Traffic
+2000,Steven Soderbergh,Erin Brockovich
+1999,Pedro Almodvar,All About My Mother (Todo sobre mi madre)
+1999,Neil Jordan,The End of the Affair
+1999,Sam Mendes,American Beauty
+1999,Anthony Minghella,The Talented Mr. Ripley
+1999,M. Night Shyamalan,The Sixth Sense
+1998,Peter Weir,The Truman Show
+1998,Shekhar Kapur,Elizabeth
+1998,John Madden,Shakespeare in Love
+1998,Steven Spielberg,Saving Private Ryan
+1997,Baz Luhrmann,Romeo + Juliet
+1997,James Cameron,Titanic
+1997,Peter Cattaneo,The Full Monty
+1997,Curtis Hanson,L.A. Confidential
+1996,Joel Coen,Fargo
+1996,Scott Hicks,Shine
+1996,Mike Leigh,Secrets and Lies
+1996,Anthony Minghella,The English Patient
+1995,Michael Radford,Il Postino: The Postman
+1995,Mel Gibson,Braveheart
+1995,Nicholas Hytner,The Madness of King George
+1995,Ang Lee,Sense and Sensibility
+1994,Mike Newell,Four Weddings and a Funeral
+1994,Krzysztof Kieslowski,Three Colours: Red (Trois couleurs : Rouge)
+1994,Quentin Tarantino,Pulp Fiction
+1994,Robert Zemeckis,Forrest Gump
+1993,Steven Spielberg,Schindler's List
+1993,Richard Attenborough,Shadowlands
+1993,Jane Campion,The Piano
+1993,James Ivory,The Remains of the Day
+1992,Robert Altman,The Player
+1992,Clint Eastwood,Unforgiven
+1992,James Ivory,Howards End
+1992,Neil Jordan,The Crying Game
+1991,Alan Parker,The Commitments
+1991,Kevin Costner,Dances with Wolves
+1991,Jonathan Demme,The Silence of the Lambs
+1991,Ridley Scott,Thelma and Louise
+1990,Martin Scorsese,Goodfellas
+1990,Woody Allen,Crimes and Misdemeanors
+1990,Bruce Beresford,Driving Miss Daisy
+1990,Giuseppe Tornatore,Cinema Paradiso (Nuovo cinema Paradiso)
+1989,Kenneth Branagh,Henry V
+1989,Stephen Frears,Dangerous Liaisons
+1989,Alan Parker,Mississippi Burning
+1989,Peter Weir,Dead Poets Society
+1988,Louis Malle,Au revoir les enfants
+1988,Gabriel Axel,Babette's Feast
+1988,Bernardo Bertolucci,The Last Emperor
+1988,Charles Crichton,A Fish Called Wanda
+1987,Oliver Stone,Platoon
+1987,Richard Attenborough,Cry Freedom
+1987,Claude Berri,Jean de Florette
+1987,John Boorman,Hope and Glory
+1986,Woody Allen,Hannah and Her Sisters
+1986,Roland Joff,The Mission
+1986,Neil Jordan,Mona Lisa
+1986,James Ivory,A Room with a View
+1984,Wim Wenders,"Paris, Texas"
+1984,Roland Joff,The Killing Fields
+1984,Sergio Leone,Once Upon a Time in America
+1984,Peter Yates,The Dresser
+1983,Bill Forsyth,Local Hero
+1983,James Ivory,Heat and Dust
+1983,Sydney Pollack,Tootsie
+1983,Martin Scorsese,The King of Comedy
+1982,Richard Attenborough,Gandhi
+1982,Costa-Gavras,Missing
+1982,Mark Rydell,On Golden Pond
+1982,Steven Spielberg,E.T. the Extra-Terrestrial
+1981,Louis Malle,Atlantic City
+1981,Bill Forsyth,Gregory's Girl
+1981,Hugh Hudson,Chariots of Fire
+1981,Karel Reisz,The French Lieutenant's Woman
+1980,Akira Kurosawa,Kagemusha
+1980,Robert Benton,Kramer vs. Kramer
+1980,David Lynch,The Elephant Man
+1980,Alan Parker,Fame
+1979,Francis Ford Coppola,Apocalypse Now
+1979,Woody Allen,Manhattan
+1979,Michael Cimino,The Deer Hunter
+1979,John Schlesinger,Yanks
+1978,Alan Parker,Midnight Express
+1978,Robert Altman,A Wedding
+1978,Steven Spielberg,Close Encounters of the Third Kind
+1978,Fred Zinnemann,Julia
+1977,Woody Allen,Annie Hall
+1977,Richard Attenborough,A Bridge Too Far
+1977,John G. Avildsen,Rocky
+1977,Sidney Lumet,Network
+1976,Milo Forman,One Flew Over the Cuckoo's Nest
+1976,Alan J. Pakula,All the President's Men
+1976,Alan Parker,Bugsy Malone
+1976,Martin Scorsese,Taxi Driver
+1975,Stanley Kubrick,Barry Lyndon
+1975,Sidney Lumet,Dog Day Afternoon
+1975,Martin Scorsese,Alice Doesn't Live Here Anymore
+1975,Steven Spielberg,Jaws
+1974,Roman Polanski,Chinatown
+1974,Francis Ford Coppola,The Conversation
+1974,Sidney Lumet,Murder on the Orient Express
+1974,Louis Malle,Lacombe Lucien
+1973,Franois Truffaut,Day for Night
+1973,Luis Buuel,The Discreet Charm of the Bourgeoisie
+1973,Nicolas Roeg,Don't Look Now
+1973,Fred Zinnemann,The Day of the Jackal
+1972,Bob Fosse,Cabaret
+1972,Peter Bogdanovich,The Last Picture Show
+1972,William Friedkin,The French Connection
+1972,Stanley Kubrick,A Clockwork Orange
+1971,John Schlesinger,Sunday Bloody Sunday
+1971,Milo Forman,Taking Off
+1971,Joseph Losey,The Go-Between
+1971,Luchino Visconti,Death in Venice
+1970,George Roy Hill,Butch Cassidy and the Sundance Kid
+1970,Robert Altman,M*A*S*H
+1970,David Lean,Ryan's Daughter
+1970,Ken Loach,Kes
+1969,John Schlesinger,Midnight Cowboy
+1969,Richard Attenborough,Oh! What a Lovely War
+1969,Ken Russell,Women in Love
+1969,Peter Yates,Bullitt
+1968,Mike Nichols,The Graduate
+1968,Lindsay Anderson,if....
+1968,Carol Reed,Oliver!
+1968,Franco Zeffirelli,Romeo and Juliet
