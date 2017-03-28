@@ -10,7 +10,7 @@ Director - table
 Actor - table (1970 better)
 Actress - table
 
-Spirt
+Spirit
 Film - list + table
 Director - list + table
 Actor - table
