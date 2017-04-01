@@ -47,11 +47,10 @@ def get_all_oscar_movies():
 	return movie_list
 
 if __name__ == '__main__' :
+	print('Name,Year,Oscar winner,Oscar nominee')
 	for item in get_all_oscar_movies():
 		item = json.loads(item)
-		if item['Winner'] == 1:
-			print(item)
-
+		print('%s, %s, %s, %s' %(item['Name'], item['Year'], item['Winner'], item['Nominee']))
 
 
 
