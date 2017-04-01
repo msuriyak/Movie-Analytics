@@ -80,16 +80,16 @@ class RTScrape():
             ctr=1
             for item in int_res:
                 if ctr==1:
-                    self.tomatometer_all_average_rating=item.contents[-1].strip()
+                    self.tomatometer_all_average_rating=float(item.contents[-1].strip().split('/')[0])
                     ctr+=1
                 elif ctr==2:
-                    self.tomatometer_all_reviews_counted=re.search('>([\d]+)<',str(item.contents[-2])).group(1)
+                    self.tomatometer_all_reviews_counted=int(re.search('>(.+)<',str(item.contents[-2])).group(1))
                     ctr+=1;
                 elif ctr==3:
-                    self.tomatometer_all_fresh=re.search('>([\d]+)<',str(item.contents[-2])).group(1)
+                    self.tomatometer_all_fresh=int(re.search('>(.+)<',str(item.contents[-2])).group(1))
                     ctr+=1;
                 elif ctr==4:
-                    self.tomatometer_all_rotten=re.search('>([\d]+)<',str(item.contents[-2])).group(1)
+                    self.tomatometer_all_rotten=int(re.search('>(.+)<',str(item.contents[-2])).group(1))
                     ctr=1;
 
 
@@ -97,34 +97,28 @@ class RTScrape():
             int_res=soup.find('div', {'class' : 'tab-pane', 'id' : 'top-critics-numbers'}).findAll('div',{'class':'superPageFontColor'})
             for item in int_res:
                 if ctr==1:
-                    self.tomatometer_top_average_rating=item.contents[-1].strip()
+                    self.tomatometer_top_average_rating=float(item.contents[-1].strip().split('/')[0])
                     ctr+=1
                 elif ctr==2:
-                    self.tomatometer_top_reviews_counted=re.search('>(.+)<',str(item.contents[-2])).group(1)
+                    self.tomatometer_top_reviews_counted=int(re.search('>(.+)<',str(item.contents[-2])).group(1))
                     ctr+=1;
                 elif ctr==3:
-                    self.tomatometer_top_fresh=re.search('>(.+)<',str(item.contents[-2])).group(1)
+                    self.tomatometer_top_fresh=int(re.search('>(.+)<',str(item.contents[-2])).group(1))
                     ctr+=1;
                 elif ctr==4:
-                    self.tomatometer_top_rotten=re.search('>(.+)<',str(item.contents[-2])).group(1)
+                    self.tomatometer_top_rotten=int(re.search('>(.+)<',str(item.contents[-2])).group(1))
                     ctr=1;
 
-            self.audience = soup.find('div', {'class' : 'audience-score meter'}).find('span', {'class':'superPageFontColor', 'style':'vertical-align:top'}).contents[0]
+            self.audience = soup.find('div', {'class' : 'audience-score meter'}).find('span', {'class':'superPageFontColor', 'style':'vertical-align:top'}).contents[0][:-1]
             int_res=soup.find('div', {'class' : 'audience-info hidden-xs superPageFontColor'}).findAll('div')
             for item in int_res:
                 if ctr==1:
-                    self.audience_average_rating=item.contents[-1].strip()
+                    self.audience_average_rating=float(item.contents[-1].strip().split('/')[0])
                     ctr+=1
                 elif ctr==2:
-                    self.audience_user_ratings=item.contents[-1].strip()
+                    self.audience_user_ratings=int("".join(item.contents[-1].strip().split(',')))
                     ctr=1;
 
-            if self.tomatometer_all_critics_rating.isdigit():
-                self.tomatometer_all_critics_rating += "%"
-            if self.tomatometer_top_critics_rating.isdigit():
-                self.tomatometer_top_critics_rating += "%"
-            if self.audience.isdigit():
-                self.audience += "%"
         except:
             pass
 
@@ -142,7 +136,9 @@ class RTScrape():
                   "Tomatometer: Top Critics: Rotten":self.tomatometer_top_rotten,
                   "Audience Score":self.audience,
                   "Audience Average Rating":self.audience_average_rating,
-                  "Audience User Ratings":self.audience_user_ratings}
+                  "Audience User Ratings":self.audience_user_ratings,
+                  "Movie":self.title,
+                  "Year":self.year}
 
         return json.dumps(result, indent=4, sort_keys=True)
 
