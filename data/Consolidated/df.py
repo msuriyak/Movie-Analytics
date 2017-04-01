@@ -4,9 +4,8 @@ import numpy as np
 
 ######### Making necessary directories ######### 
 if not os.path.exists('../Datasets'):
-		os.makedirs('../Datasets')
-	os.chdir('../Datasets')
-
+    os.makedirs('../Datasets')
+    
 # **************** Best Film ****************
 gg = pd.read_csv('films_globe.csv', index_col=0)
 res = []
