@@ -141,4 +141,5 @@ def clean_data(row):
 
 
 if __name__ == '__main__':
-    scrape()
+    url = 'https://en.wikipedia.org/wiki/Independent_Spirit_Award_for_Best_Film'
+    scrape(url, output_name='film')
