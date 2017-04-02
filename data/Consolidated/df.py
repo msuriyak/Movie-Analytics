@@ -109,7 +109,19 @@ res = np.array(res)
 guild['Guild best actor winner'] = res
 guild['Guild best actor nominee'] = 1
 
-df = [gg, bf, spirit, guild]
+oscars = pd.read_csv('oscar_actor.csv')
+res = []
+for year in oscars['Year'].unique():
+    temp = oscars[oscars['Year'] == year]
+    if type(temp) == pd.core.series.Series:
+        res += [1]
+    else: 
+        res += [1] + [0 for i in range(len(temp) -1 )]
+res = np.array(res)
+oscars['Oscar best actor winner'] = res
+oscars['Oscar best actor nominee'] = 1
+
+df = [gg, bf, spirit, guild, oscars]
 condition = ['Name', 'Year', 'Actor']
 best_actor = gg.merge(bf, how='outer', right_on=condition, left_on=condition)
 for frame in df[2:]:
@@ -169,7 +181,19 @@ res = np.array(res)
 guild['Guild best actress winner'] = res
 guild['Guild best actress nominee'] = 1
 
-df = [gg, bf, spirit, guild]
+oscars = pd.read_csv('oscar_actress.csv')
+res = []
+for year in oscars['Year'].unique():
+    temp = oscars[oscars['Year'] == year]
+    if type(temp) == pd.core.series.Series:
+        res += [1]
+    else: 
+        res += [1] + [0 for i in range(len(temp) -1 )]
+res = np.array(res)
+oscars['Oscar best actress winner'] = res
+oscars['Oscar best actress nominee'] = 1
+
+df = [gg, bf, spirit, guild, oscars]
 condition = ['Name', 'Year', 'Actress']
 best_actress = gg.merge(bf, how='outer', right_on=condition, left_on=condition)
 for frame in df[2:]:
@@ -214,7 +238,19 @@ res = np.array(res)
 spirit['Spirit best director winner'] = res
 spirit['Spirit best director nominee'] = 1
 
-df = [gg, bf, spirit]
+oscars = pd.read_csv('oscar_director.csv')
+res = []
+for year in oscars['Year'].unique():
+    temp = oscars[oscars['Year'] == year]
+    if type(temp) == pd.core.series.Series:
+        res += [1]
+    else: 
+        res += [1] + [0 for i in range(len(temp) -1 )]
+res = np.array(res)
+oscars['Oscar best director winner'] = res
+oscars['Oscar best director nominee'] = 1
+
+df = [gg, bf, spirit, oscars]
 condition = ['Name', 'Year', 'Director']
 best_director = gg.merge(bf, how='outer', right_on=condition, left_on=condition)
 for frame in df[2:]:
