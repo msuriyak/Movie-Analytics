@@ -97,18 +97,20 @@ class IMDb(object):
         self.cast = [actor.text for actor in table.findAll('span', {'class' : 'itemprop', 'itemprop' : 'name'})]
         
         temp = soup.findAll('div', {'class' : 'txt-block'}) 
+        
+        self.country = 'NA'  
+        self.languages = 'NA'
+        self.release_date = 'NA'
+        self.budget = 'NA'
+        self.opening_weekend = 'NA'
+        self.gross = 'NA'
+        self.runtime = 'NA'
+
         for item in temp :
             term = item.find('h4', {'class' : 'inline'})
             
             if term == None :
                 continue
-            self.country = 'NA'  
-            self.languages = 'NA'
-            self.release_date = 'NA'
-            self.budget = 'NA'
-            self.opening_weekend = 'NA'
-            self.gross = 'NA'
-            self.runtime = 'NA'
 
             term = term.text
             if 'Country' in term :
