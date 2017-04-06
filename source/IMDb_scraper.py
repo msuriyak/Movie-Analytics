@@ -3,9 +3,27 @@ import urllib
 from bs4 import BeautifulSoup as bs
 import re
 import json
-from oscar_movies import *
 
 class IMDb(object):
+    uid = None
+    title = None
+    year  = None
+    languages = None
+    release_date = None
+    director    = None
+    writer = None
+    rating = None
+    ratingCount = None
+    metascore = None
+    cast = None
+    country = None
+    budget = None
+    opening_weekend = None
+    gross = None
+    runtime = None
+    genre = None
+    mpaa = None
+
     def __init__(self, title='', year='', lang='en'):
         self.title_query = title
         self.year_query = year
@@ -76,7 +94,13 @@ class IMDb(object):
         temp = soup.find('title')
         self.title = temp.text[:-14]
         self.year = temp.text[-12:-8]
-        
+
+        self.mpaa = soup.find('meta', {'itemprop' : 'contentRating'}).get('content')
+
+        temp = soup.find('div', {'class' : 'subtext'})
+        self.genre = [item.text for item in temp.findAll('span', {'class' : 'itemprop', 'itemprop' : 'genre'})]
+        self.release_date = temp.find('meta', {'itemprop' : 'datePublished'}).get('content')
+
         temp = soup.findAll('div', {'class' : 'credit_summary_item'})
         for item in temp:
             if 'Director' in item.find('h4', {'class' : 'inline'}).text:
@@ -97,14 +121,6 @@ class IMDb(object):
         self.cast = [actor.text for actor in table.findAll('span', {'class' : 'itemprop', 'itemprop' : 'name'})]
         
         temp = soup.findAll('div', {'class' : 'txt-block'}) 
-        
-        self.country = 'NA'  
-        self.languages = 'NA'
-        self.release_date = 'NA'
-        self.budget = 'NA'
-        self.opening_weekend = 'NA'
-        self.gross = 'NA'
-        self.runtime = 'NA'
 
         for item in temp :
             term = item.find('h4', {'class' : 'inline'})
@@ -117,8 +133,6 @@ class IMDb(object):
                 self.country = [country.text for country in item.findAll('a')]
             if 'Language'  in term :
                 self.languages = [lang.text for lang in item.findAll('a')]
-            if 'Release Date'  in term :
-                self.release_date = item.text[15:-22]
             if 'Budget' in term:
                 self.budget = re.search('\$[0-9,]*', item.text).group()
             if 'Opening Weekend' in term:
@@ -144,34 +158,17 @@ class IMDb(object):
                   'Budget'          : self.budget,
                   'Opening weekend' : self.opening_weekend,
                   'Gross'           : self.gross,
-                  'Runtime'         : self.runtime
+                  'Runtime'         : self.runtime,
+                  'Genre'           : self.genre,
+                  'MPAA Rating'     : self.mpaa
                   }
-        return json.dumps(result, indent=4, sort_keys=True)
+        return json.dumps(result)
 
 
 if __name__ == '__main__' :    
-    '''
     temp = IMDb()
     temp.collect_data('the rainmaker', 1997)
+    print(temp.make_json())
 
-    print('\n')
-
-    temp = IMDb()
-    temp.collect_data('la la land', 2016)
-    '''
-
-    successful = []
-    failed = []
-    temp = IMDb()
-    for item in get_all_oscar_movies():
-        item = json.loads(item)
-        if item['Winner'] == 1:
-            try :
-                temp.collect_data(item['Name'], item['Year'])
-                successful.append(temp.make_json())
-            except Exception as e :
-                failed.append(item)
-                print('\t\t\tFailed in %d' %(item['Year']))
-
-    for item in failed:
-        print(item['Year'])
+    temp.collect_data('logan', 2017)
+    print(temp.make_json())

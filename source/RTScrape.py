@@ -148,7 +148,8 @@ class RTScrape(object):
                   "Average Rating (audience)" : self.audience_average_rating,
                   "User Ratings (audience)"   : self.audience_user_ratings,
                   "Movie"                     : self.title,
-                  "Year"                      : self.year}
+                  "Year"                      : self.year
+                  }
 
         return json.dumps(result)
 
