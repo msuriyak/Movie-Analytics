@@ -41,7 +41,7 @@ class RTScrape(object):
         self.query_year = year
         self._process()
 
-    def _search_movie(self, timeout=5):
+    def _search_movie(self, timeout=10):
         print('Searching !!')
         utitle = urllib.parse.quote(self.query_title)
         url = self.SEARCH_URL + utitle
@@ -71,11 +71,11 @@ class RTScrape(object):
 
         return movie_url
 
-    def _process(self, timeout=5):
+    def _process(self, timeout=10):
         url = self._search_movie()
         if url == None :
             msg = 'No matching results !! Exiting with all values set to None'
-            raise RuntimeError(msg)
+            return
         self.url = url
         try :
             page = rs.urlopen(url, timeout=timeout)
@@ -84,12 +84,16 @@ class RTScrape(object):
             raise RuntimeError('Timeout')
         soup = bs(page, 'html.parser')
 
-        self.title = soup.find('h1', {'class' : 'title hidden-xs', 'data-type' : 'title'}).text.strip() 
+        self.title = soup.find('h1', {'data-type' : 'title'}).text.strip() 
+        
         self.year = int(self.title.split(' ')[-1][1:-1])
         self.title = ' '.join(self.title.split(' ')[:-1])
 
         # Tomatometer Ratings
-        self.tomatometer_all_critics_rating = soup.find('div', {'class' : 'tab-pane active', 'id' : 'all-critics-numbers'}).find('span',{'class':'meter-value superPageFontColor'}).find('span').contents[0]
+        try :
+            self.tomatometer_all_critics_rating = soup.find('div', {'class' : 'tab-pane active', 'id' : 'all-critics-numbers'}).find('span',{'class':'meter-value superPageFontColor'}).find('span').contents[0]
+        except AttributeError:
+            self.tomatometer_all_critics_rating = None
         int_res = soup.find('div', {'class' : 'tab-pane active', 'id' : 'all-critics-numbers'}).findAll('div',{'class':'superPageFontColor'})
         ctr = 1
         for item in int_res:
@@ -105,8 +109,10 @@ class RTScrape(object):
             elif ctr == 4:
                 self.tomatometer_all_rotten = int(re.search('>(.+)<',str(item.contents[-2])).group(1))
                 ctr = 1;
-
-        self.tomatometer_top_critics_rating = soup.find('div', {'class' : 'tab-pane', 'id' : 'top-critics-numbers'}).find('span',{'class':'meter-value superPageFontColor'}).find('span').contents[0]
+        try :
+            self.tomatometer_top_critics_rating = soup.find('div', {'class' : 'tab-pane', 'id' : 'top-critics-numbers'}).find('span',{'class':'meter-value superPageFontColor'}).find('span').contents[0]
+        except AttributeError:
+            self.tomatometer_top_critics_rating = None
         int_res = soup.find('div', {'class' : 'tab-pane', 'id' : 'top-critics-numbers'}).findAll('div',{'class':'superPageFontColor'})
         for item in int_res:
             if ctr == 1:
@@ -155,4 +161,5 @@ class RTScrape(object):
 
 if __name__ == "__main__":
     print('Running main!!!')
-    print(RTScrape('logan', 2017).make_json())
+    #print(RTScrape('logan', 2017).make_json())
+    print(RTScrape('The Thief', 1952).make_json())

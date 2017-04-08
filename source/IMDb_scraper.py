@@ -46,7 +46,7 @@ class IMDb(object):
                 print('Matches found!!!')
                 break
             except Exception as e :
-                msg = ('Search attempt %d failed with ' %(attempts)) + str(e) + 'error'
+                msg = ('Search attempt %d failed with :' %(attempts)) + str(e) + 'error'
                 print(msg)
         
         if attempts == max_attempts :
@@ -81,7 +81,7 @@ class IMDb(object):
                 print('Successful connection')
                 break
             except Exception as e:
-                msg = ('Try %d, Exited with error ' %(attempts)) + str(e) 
+                msg = ('Try %d, Exited with error :' %(attempts)) + str(e) 
                 print(msg)
         
         if attempts == max_attempts :
@@ -95,7 +95,10 @@ class IMDb(object):
         self.title = temp.text[:-14]
         self.year = temp.text[-12:-8]
 
-        self.mpaa = soup.find('meta', {'itemprop' : 'contentRating'}).get('content')
+        try :
+            self.mpaa = soup.find('meta', {'itemprop' : 'contentRating'}).get('content')
+        except AttributeError:
+           self.mpaa = None
 
         temp = soup.find('div', {'class' : 'subtext'})
         self.genre = [item.text for item in temp.findAll('span', {'class' : 'itemprop', 'itemprop' : 'genre'})]
@@ -167,6 +170,9 @@ class IMDb(object):
 
 if __name__ == '__main__' :    
     temp = IMDb()
+    temp.collect_data('a place in the sun', 1951)
+    print(temp.make_json())
+
     temp.collect_data('the rainmaker', 1997)
     print(temp.make_json())
 
