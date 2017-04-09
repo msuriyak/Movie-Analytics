@@ -23,7 +23,7 @@ movies = pd.read_csv('../data/Datasets/name_and_year.csv')
 
 data = {}
 f = open('results', 'w')
-for i in range(movies.shape[0]):
+for i in range(1):
     name = movies.iloc[i]['Name']
     year = int(movies.iloc[i]['Year'])
     
@@ -59,3 +59,7 @@ for i in range(movies.shape[0]):
         temp = [str(i), name, str(year), str(e)]
         print('\t******* Failed !!! *******')
         print(';'.join(temp), file=sys.stderr)
+
+'''
+0   None    Montgomery Clift | Elizabeth Taylor | Shelley Winters | Anne Revere | Keefe Brasselle | Fred Clark | Raymond Burr | Herbert Heyes | Shepperd Strudwick | Frieda Inescort | Kathryn Givney | Walter Sande | Ted de Corsia | John Ridgely | Lois Chartrand    1951-08-14  A Place in the Sun  NA  7.8 tt0043924   None    $2,295,304  Drama | Romance English 122 min USA 1951    15816   None    Theodore Dreiser | Patrick Kearney  George Stevens  28  None    None    75  None    7.2 84  21  None    1951    7   None    3.9 A Place in the Sun  8458
+'''

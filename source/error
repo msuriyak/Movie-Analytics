@@ -1,0 +1,806 @@
+0;A Place in the Sun ;1951;Timeout
+13;Around the World in 80 Days ;1956;local variable 'page_link' referenced before assignment
+21;Wild Is the Wind;1957;'NoneType' object has no attribute 'contents'
+39;El Cid;1961;HTTP Error 504: Gateway Time-out
+47;Hemingway's Adventures of a Young Man;1962;'NoneType' object has no attribute 'contents'
+48;Lisa;1962;Search failed after 2 attempts
+83;The Fixer;1968;Unable to collect data
+101;E.T. the Extra-Terrestrial ;1982;Search failed after 2 attempts
+120;Witness ;1985;Search failed after 2 attempts
+123;The Mission ;1986;Search failed after 2 attempts
+124;Mona Lisa;1986;Search failed after 2 attempts
+125;A Room with a View ;1986;Search failed after 2 attempts
+144;Glory;1989;Search failed after 2 attempts
+151;JFK ;1991;Search failed after 2 attempts
+152;The Prince of Tides ;1991;Unable to collect data
+156;The Crying Game ;1992;'NoneType' object has no attribute 'group'
+160;Schindler's List ;1993;'NoneType' object has no attribute 'group'
+163;The Piano ;1993;'NoneType' object has no attribute 'group'
+165;Forrest Gump ;1994;'NoneType' object has no attribute 'group'
+167;Nell;1994;'NoneType' object has no attribute 'group'
+168;Pulp Fiction ;1994;'NoneType' object has no attribute 'group'
+170;Sense and Sensibility ;1995;'NoneType' object has no attribute 'group'
+172;Braveheart ;1995;Unable to collect data
+178;Secrets & Lies ;1996;Unable to collect data
+186;Elizabeth ;1998;'NoneType' object has no attribute 'group'
+190;American Beauty ;1999;Search failed after 2 attempts
+196;Billy Elliot;2000;'NoneType' object has no attribute 'group'
+201;A Beautiful Mind ;2001;Unable to collect data
+203;The Lord of the Rings: The Fellowship of the Ring ;2001;'NoneType' object has no attribute 'group'
+204;The Man Who Wasn't There;2001;'NoneType' object has no attribute 'group'
+205;Mulholland Drive;2001;No results found!!
+206;The Hours ;2002;'NoneType' object has no attribute 'group'
+209;The Lord of the Rings: The Two Towers ;2002;'NoneType' object has no attribute 'group'
+211;The Lord of the Rings: The Return of the King ;2003;'NoneType' object has no attribute 'group'
+212;Cold Mountain;2003;'NoneType' object has no attribute 'group'
+218;Finding Neverland ;2004;'NoneType' object has no attribute 'group'
+223;The Constant Gardener;2005;'NoneType' object has no attribute 'group'
+226;Match Point;2005;Unable to collect data
+229;The Departed ;2006;'NoneType' object has no attribute 'group'
+231;The Queen ;2006;Search failed after 2 attempts
+232;Atonement ;2007;'NoneType' object has no attribute 'group'
+234;Eastern Promises;2007;'NoneType' object has no attribute 'group'
+236;Michael Clayton ;2007;'NoneType' object has no attribute 'group'
+244;Avatar ;2009;'NoneType' object has no attribute 'group'
+245;The Hurt Locker ;2009;No results found!!
+246;Inglourious Basterds ;2009;'NoneType' object has no attribute 'group'
+251;The Fighter ;2010;'NoneType' object has no attribute 'text'
+252;Inception ;2010;'NoneType' object has no attribute 'group'
+256;Hugo ;2011;Search failed after 2 attempts
+263;Lincoln ;2012;'NoneType' object has no attribute 'text'
+267;Gravity ;2013;'NoneType' object has no attribute 'text'
+269;Rush;2013;'NoneType' object has no attribute 'text'
+275;The Revenant ;2015;'NoneType' object has no attribute 'group'
+276;Carol;2015;'NoneType' object has no attribute 'text'
+278;Room ;2015;'NoneType' object has no attribute 'text'
+283;Lion ;2016;'NoneType' object has no attribute 'text'
+286;The 400 Blows;1960;No results found!!
+287;The Angry Silence;1960;'NoneType' object has no attribute 'group'
+288;The Adventure;1960;local variable 'page_link' referenced before assignment
+291;Hiroshima mon amour;1960;No results found!!
+293;Black Orpheus;1960;No results found!!
+295;Saturday Night and Sunday Morning;1960;'NoneType' object has no attribute 'group'
+296;Shadows;1960;local variable 'page_link' referenced before assignment
+297;The Testament of Orpheus;1960;No results found!!
+300;Ballad of a Soldier;1961;local variable 'page_link' referenced before assignment
+302;The World of Apu;1961;No results found!!
+306;Rocco and His Brothers;1961;No results found!!
+307;The Sundowners;1961;local variable 'page_link' referenced before assignment
+309;The Hole;1961;Search failed after 2 attempts
+312;Last Year at Marienbad;1962;No results found!!
+314;The Elusive Corporal;1962;No results found!!
+315;The Lady with the Dog;1962;No results found!!
+316;The Naked Island;1962;No results found!!
+317;Jules and Jim;1962;'NoneType' object has no attribute 'group'
+320;Lola;1962;local variable 'page_link' referenced before assignment
+324;Through a Glass Darkly;1962;No results found!!
+325;Thou Shalt Not Kill;1962;local variable 'page_link' referenced before assignment
+326;The Long Absence;1962;No results found!!
+327;West Side Story;1962;local variable 'page_link' referenced before assignment
+331;David and Lisa;1963;No results found!!
+332;Days of Wine and Roses;1963;No results found!!
+333;Divorce, Italian Style;1963;No results found!!
+334;Knife in the Water;1963;No results found!!
+335;The Four Days of Naples;1963;No results found!!
+338;To Kill a Mockingbird;1963;local variable 'page_link' referenced before assignment
+343;My Fair Lady;1965;No results found!!
+344;Hamlet;1965;local variable 'page_link' referenced before assignment
+346;The Knack ...and How to Get It;1965;local variable 'search_results' referenced before assignment
+347;Zorba the Greek;1965;No results found!!
+349;Doctor Zhivago;1966;No results found!!
+351;The Spy Who Came in From The Cold;1966;No results found!!
+352;A Man For All Seasons;1967;local variable 'page_link' referenced before assignment
+355;A Man and a Woman;1967;local variable 'page_link' referenced before assignment
+356;The Graduate;1968;local variable 'page_link' referenced before assignment
+357;2001: A Space Odyssey;2001;No results found!!
+359;Closely Observed Trains;2001;No results found!!
+364;Butch Cassidy and the Sundance Kid;1970;No results found!!
+365;Kes;1970;local variable 'page_link' referenced before assignment
+366;M*A*S*H;1970;No results found!!
+367;Ryan's Daughter;1970;Unable to collect data
+372;Cabaret;1972;Unable to collect data
+373;A Clockwork Orange;1972;No results found!!
+374;The French Connection;1972;local variable 'page_link' referenced before assignment
+375;The Last Picture Show;1972;No results found!!
+378;The Discreet Charm of the Bourgeoisie;1973;No results found!!
+381;Chinatown;1974;Unable to collect data
+382;The Last Detail;1974;Search failed after 2 attempts
+383;Murder on the Orient Express;1974;'NoneType' object has no attribute 'group'
+384;Alice Doesn't Live Here Anymore;1975;No results found!!
+388;One Flew Over the Cuckoo's Nest;1976;No results found!!
+391;Taxi Driver;1976;Timeout
+394;Network;1977;local variable 'page_link' referenced before assignment
+395;Rocky;1977;local variable 'page_link' referenced before assignment
+396;Julia;1978;local variable 'page_link' referenced before assignment
+397;Close Encounters of the Third Kind;1978;No results found!!
+399;Star Wars;1978;local variable 'page_link' referenced before assignment
+403;The Deer Hunter;1979;No results found!!
+405;Being There;1980;local variable 'page_link' referenced before assignment
+406;Kagemusha;1980;No results found!!
+407;Kramer vs. Kramer;1980;No results found!!
+409;Atlantic City;1981;local variable 'page_link' referenced before assignment
+410;Gregory's Girl;1981;local variable 'page_link' referenced before assignment
+415;On Golden Pond;1982;No results found!!
+419;Tootsie;1983;No results found!!
+421;The Dresser;1984;local variable 'page_link' referenced before assignment
+422;Paris, Texas;1984;'NoneType' object has no attribute 'group'
+425;Amadeus;1985;No results found!!
+426;Back to the Future;1985;'NoneType' object has no attribute 'group'
+427;A Passage to India;1985;No results found!!
+429;A Room with a View;1986;No results found!!
+431;The Mission;1986;Search failed after 2 attempts
+432;Jean de Florette;1987;No results found!!
+435;The Last Emperor;1988;No results found!!
+436;Au revoir les enfants;1988;No results found!!
+437;Babette's Feast;1988;No results found!!
+440;My Left Foot;1989;'NoneType' object has no attribute 'group'
+444;Crimes and Misdemeanors;1990;No results found!!
+445;Driving Miss Daisy;1990;Search failed after 2 attempts
+448;Dances with Wolves;1991;No results found!!
+452;The Crying Game;1992;'NoneType' object has no attribute 'group'
+454;Strictly Ballroom;1992;'NoneType' object has no attribute 'group'
+456;Schindler's List;1993;'NoneType' object has no attribute 'group'
+457;The Piano;1993;'NoneType' object has no attribute 'group'
+461;Forrest Gump;1994;'NoneType' object has no attribute 'group'
+462;Pulp Fiction;1994;timed out
+464;Sense and Sensibility;1995;'NoneType' object has no attribute 'group'
+465;Babe;1995;Search failed after 2 attempts
+466;The Madness of King George;1995;No results found!!
+477;Elizabeth;1998;Search failed after 2 attempts
+480;East is East;1999;Search failed after 2 attempts
+484;Crouching Tiger, Hidden Dragon;2000;local variable 'page_link' referenced before assignment
+486;The Lord of the Rings: The Fellowship of the Ring;2001;'NoneType' object has no attribute 'group'
+487;Amlie;2001;No results found!!
+492;Chicago;2002;'NoneType' object has no attribute 'text'
+494;The Hours;2002;Search failed after 2 attempts
+495;The Lord of the Rings: The Two Towers;2002;'NoneType' object has no attribute 'group'
+496;The Lord of the Rings: The Return of the King;2003;'NoneType' object has no attribute 'group'
+502;Finding Neverland;2004;'NoneType' object has no attribute 'group'
+503;The Motorcycle Diaries;2004;No results found!!
+507;Crash;2005;'NoneType' object has no attribute 'group'
+510;Babel;2006;Search failed after 2 attempts
+511;The Departed;2006;'NoneType' object has no attribute 'group'
+513;Little Miss Sunshine;2006;Unable to collect data
+514;Atonement;2007;'NoneType' object has no attribute 'group'
+515;The Lives of Others;2007;local variable 'page_link' referenced before assignment
+516;No Country for Old Men;2007;Unable to collect data
+523;The Hurt Locker;2009;No results found!!
+524;Avatar;2009;Unable to collect data
+530;Inception;2010;'NoneType' object has no attribute 'group'
+535;Drive;2011;'NoneType' object has no attribute 'text'
+537;Tinker Tailor Soldier Spy;2011;'NoneType' object has no attribute 'group'
+539;Les Misrables;2012;No results found!!
+541;Lincoln;2012;'NoneType' object has no attribute 'text'
+543;12 Years a Slave;2013;Unable to collect data
+546;Gravity;2013;'NoneType' object has no attribute 'text'
+549;Birdman or (The Unexpected Virtue of Ignorance);2014;local variable 'search_results' referenced before assignment
+553;The Revenant;2015;'NoneType' object has no attribute 'group'
+558;Arrival;2016;'NoneType' object has no attribute 'text'
+563;Blood Simple ;1985;No results found!!
+566; Platoon † ;1986;Search failed after 2 attempts
+569;On Valentine's Day;1986;'NoneType' object has no attribute 'contents'
+572; River's Edge ;1987;No results found!!
+573;The Big Easy;1987;No results found!!
+580;Patti Rocks;1988;Unable to collect data
+581;The Thin Blue Line;1988;local variable 'page_link' referenced before assignment
+585;Heat and Sunlight;1989;No results found!!
+589;Henry: Potrait of a Serial Killer;1990;No results found!!
+590;The Plot Against Harry;1990;No results found!!
+601;Mississippi Masala;1992;No results found!!
+604;Equinox;1993;local variable 'page_link' referenced before assignment
+608; Pulp Fiction ‡ ;1994;'NoneType' object has no attribute 'group'
+610;Eat Drink Man Woman;1994;No results found!!
+612;Wes Craven's New Nightmare ;1994;No results found!!
+616;Safe;1995;'NoneType' object has no attribute 'get'
+617;The Secret of Roan Inish ;1995;No results found!!
+619;Dead Man ;1996;local variable 'page_link' referenced before assignment
+620;The Funeral;1996;Search failed after 2 attempts
+622;Welcome to the Dollhouse ;1996;No results found!!
+625;Loved;1997;local variable 'page_link' referenced before assignment
+627;Waiting for Guffman ;1997;No results found!!
+629;Affliction ;1998;local variable 'page_link' referenced before assignment
+632;Velvet Goldmine;1998;'NoneType' object has no attribute 'group'
+638;Crouching Tiger  Hidden Dragon;2000;local variable 'page_link' referenced before assignment
+641;Ghost Dog: The Way of the Samurai;2000;No results found!!
+643;Memento;2001;local variable 'page_link' referenced before assignment
+647;Waking Life;2001;Unable to collect data
+650;Lovely & Amazing;2002;local variable 'page_link' referenced before assignment
+652;Tully;2002;local variable 'page_link' referenced before assignment
+654;In America;2003;local variable 'page_link' referenced before assignment
+655;Raising Victor Vargas;2003;No results found!!
+658;Baadasssss!;2004;No results found!!
+661;Good Night and Good Luck;2005;Search failed after 2 attempts
+664;American Gun;2006;No results found!!
+667;Pan's Labyrinth;2006;No results found!!
+669;The Diving Bell and the Butterfly;2007;No results found!!
+670;I'm Not There;2007;Search failed after 2 attempts
+680;The Last Station;2009;'NoneType' object has no attribute 'group'
+681;Sin Nombre;2009;No results found!!
+686;The Artist;2010;'NoneType' object has no attribute 'get'
+687;50/50;2010;local variable 'page_link' referenced before assignment
+688;Beginners;2010;'NoneType' object has no attribute 'text'
+689;The Descendants;2010;local variable 'page_link' referenced before assignment
+690;Drive;2010;'NoneType' object has no attribute 'text'
+691;Take Shelter;2010;local variable 'page_link' referenced before assignment
+694;Bernie;2012;local variable 'page_link' referenced before assignment
+697;All Is Lost;2013;'NoneType' object has no attribute 'text'
+698;Frances Ha;2013;No results found!!
+705;Anomalisa;2015;Search failed after 2 attempts
+711;After Hours;2016;No results found!!
+713; Sense and Sensibility ;1995;'NoneType' object has no attribute 'group'
+716;The Crucible;1996;timed out
+717;Evita;1996;'NoneType' object has no attribute 'group'
+729;Life Is Beautiful ;1998;local variable 'page_link' referenced before assignment
+752; Chicago ;2002;'NoneType' object has no attribute 'text'
+756; The Lord of the Rings: The Return of the King ;2003;'NoneType' object has no attribute 'group'
+762;The Phantom of the Opera;2004;'NoneType' object has no attribute 'group'
+763;Ray ;2004;'NoneType' object has no attribute 'group'
+766;Cinderella Man;2005;'NoneType' object has no attribute 'text'
+767;Crash ;2005;'NoneType' object has no attribute 'group'
+769;King Kong;2005;'NoneType' object has no attribute 'text'
+773; The Departed ;2006;'NoneType' object has no attribute 'group'
+781;Into the Wild;2007;'NoneType' object has no attribute 'text'
+790;WALL-E;2008;No results found!!
+791; The Hurt Locker ;2009;No results found!!
+794;Nine;2009;'NoneType' object has no attribute 'get'
+799;The Town;2010;Search failed after 2 attempts
+815;Her ;2013;Search failed after 2 attempts
+824;Unbroken;2014;'NoneType' object has no attribute 'text'
+825;Whiplash ;2014;Search failed after 2 attempts
+829;Brooklyn ;2015;Unable to collect data
+834;Arrival ;2016;'NoneType' object has no attribute 'text'
+839;The Racket;1927;Search failed after 2 attempts
+841;The Broadway Melody;1928;local variable 'page_link' referenced before assignment
+842;Alibi;1928;local variable 'page_link' referenced before assignment
+843;Hollywood Revue;1928;local variable 'page_link' referenced before assignment
+845;The Patriot;1928;'NoneType' object has no attribute 'text'
+846;All Quiet on the Western Front;1929;local variable 'page_link' referenced before assignment
+847;The Big House;1929;local variable 'page_link' referenced before assignment
+849;The Divorcee;1929;local variable 'page_link' referenced before assignment
+851;Cimarron;1930;local variable 'page_link' referenced before assignment
+852;East Lynne;1930;local variable 'page_link' referenced before assignment
+853;The Front Page;1930;local variable 'page_link' referenced before assignment
+854;Skippy;1930;local variable 'page_link' referenced before assignment
+855;Trader Horn;1930;local variable 'page_link' referenced before assignment
+856;Grand Hotel;1931;local variable 'page_link' referenced before assignment
+861;One Hour with You;1931;local variable 'page_link' referenced before assignment
+862;Shanghai Express;1931;local variable 'page_link' referenced before assignment
+864;Cavalcade;1932;local variable 'page_link' referenced before assignment
+865;42nd Street;1932;local variable 'page_link' referenced before assignment
+868;Lady for a Day;1932;local variable 'page_link' referenced before assignment
+869;Little Women;1932;local variable 'page_link' referenced before assignment
+870;The Private Life of Henry VIII;1932;local variable 'page_link' referenced before assignment
+871;She Done Him Wrong;1932;local variable 'page_link' referenced before assignment
+873;State Fair;1932;local variable 'page_link' referenced before assignment
+885;The White Parade;1934;'NoneType' object has no attribute 'contents'
+906;A Tale of Two Cities;1936;local variable 'page_link' referenced before assignment
+920;Alexander's Ragtime Band;1938;Search failed after 2 attempts
+924;Grand Illusion;1938;local variable 'page_link' referenced before assignment
+938;Rebecca;1940;timed out
+955;One Foot in Heaven;1941;HTTP Error 404: Not Found
+959;The Invaders;1942;local variable 'page_link' referenced before assignment
+968;Casablanca;1943;local variable 'page_link' referenced before assignment
+972;In Which We Serve;1943;No results found!!
+980;Gaslight;1944;Unable to collect data
+986;Mildred Pierce;1945;Unable to collect data
+989;Henry V;1946;Search failed after 2 attempts
+990;It's a Wonderful Life;1946;'NoneType' object has no attribute 'group'
+996;Great Expectations;1947;local variable 'page_link' referenced before assignment
+998;Hamlet;1948;'NoneType' object has no attribute 'group'
+1000;The Red Shoes;1948;'NoneType' object has no attribute 'group'
+1005;The Heiress;1949;'NoneType' object has no attribute 'contents'
+1012;Sunset Boulevard;1950;Search failed after 2 attempts
+1021;Moulin Rouge;1952;Unable to collect data
+1029;The Caine Mutiny;1954;Timeout
+1033;Marty;1955;'NoneType' object has no attribute 'get'
+1038;Around the World in 80 Days;1956;local variable 'page_link' referenced before assignment
+1057;Room at the Top;1959;'NoneType' object has no attribute 'group'
+1070;How the West Was Won;1963;Search failed after 2 attempts
+1088;Oliver!;1968;Search failed after 2 attempts
+1097;Airport;1970;'NoneType' object has no attribute 'get'
+1101;A Clockwork Orange;1971;'NoneType' object has no attribute 'group'
+1107;The Emigrants;1972;local variable 'page_link' referenced before assignment
+1111;Cries and Whispers;1973;No results found!!
+1112;The Exorcist;1973;'NoneType' object has no attribute 'group'
+1124;Julia;1977;'NoneType' object has no attribute 'group'
+1138;Tess;1980;local variable 'page_link' referenced before assignment
+1149;A Passage to India;1984;Search failed after 2 attempts
+1167;Driving Miss Daisy;1989;Unable to collect data
+1171;Awakenings;1990;'NoneType' object has no attribute 'get'
+1174;Beauty and the Beast;1991;Search failed after 2 attempts
+1178;A Few Good Men;1992;Unable to collect data
+1180;The Fugitive;1993;'NoneType' object has no attribute 'group'
+1184;Apollo 13;1995;Search failed after 2 attempts
+1185;Il Postino: The Postman;1995;No results found!!
+1187;Secrets & Lies;1996;Search failed after 2 attempts
+1190;Life Is Beautiful;1998;local variable 'page_link' referenced before assignment
+1196;Crouching Tiger Hidden Dragon;2000;local variable 'page_link' referenced before assignment
+1203;Ray;2004;'NoneType' object has no attribute 'group'
+1206;Michael Clayton;2007;'NoneType' object has no attribute 'group'
+1209;Inglourious Basterds;2009;'NoneType' object has no attribute 'group'
+1212;The Fighter;2010;Search failed after 2 attempts
+1224;Her;2013;'NoneType' object has no attribute 'get'
+1230;Room;2015;'NoneType' object has no attribute 'text'
+1235;Lion;2016;'NoneType' object has no attribute 'text'
+1244;My Son, the Hero (Los Hermanos Del Hierro);1962;No results found!!
+1248;Zorba the Greek (Alexis Zorbas);1964;No results found!!
+1249;A Man and a Woman;1966;local variable 'page_link' referenced before assignment
+1254;Women in Love;1970;local variable 'page_link' referenced before assignment
+1258;Last Tango in Paris;1973;No results found!!
+1265;Being There;1979;Search failed after 2 attempts
+1267;Fanny and Alexander;1983;No results found!!
+1270;Bird;1988;Search failed after 2 attempts
+1275;The American President;1995;'NoneType' object has no attribute 'group'
+1283;The Lives of Others (Das Leben der Anderen);2007;No results found!!
+1284;Amlie (Le Fabuleux destin d'Amlie Poulain);2001;No results found!!
+1285;Crouching Tiger, Hidden Dragon (Wo hu cang long);2000;No results found!!
+1286;All About My Mother (Todo sobre mi madre);1999;No results found!!
+1287;Romeo + Juliet;1997;local variable 'page_link' referenced before assignment
+1288;Three Colours: Red (Trois couleurs : Rouge);1994;No results found!!
+1289;Cinema Paradiso (Nuovo cinema Paradiso);1990;No results found!!
+1291;Dangerous Liaisons;1989;No results found!!
+1292;Mississippi Burning;1989;No results found!!
+1293;Platoon;1987;'NoneType' object has no attribute 'text'
+1294;The King of Comedy;1983;No results found!!
+1298;Bullitt;1969;local variable 'page_link' referenced before assignment
+1299;if....;1968;Search failed after 2 attempts
+1300; Blood Simple ;1985;No results found!!
+1306; Blue Velvet;1986;Unable to collect data
+1308; Salvador;1986;Search failed after 2 attempts
+1311; River's Edge;1987;No results found!!
+1312; The Big Easy;1987;Search failed after 2 attempts
+1315; Patti Rocks;1988;'NoneType' object has no attribute 'contents'
+1316; The Thin Blue Line;1988;local variable 'page_link' referenced before assignment
+1326; Henry: Portrait of a Serial Killer;1990;local variable 'page_link' referenced before assignment
+1328; The Plot Against Harry;1990;No results found!!
+1341; El Mariachi;1993;No results found!!
+1342; Mac;1993;local variable 'page_link' referenced before assignment
+1343; Pulp Fiction ;1994;'NoneType' object has no attribute 'group'
+1344; Red Rock West;1994;No results found!!
+1345; Eat Drink Man Woman;1994;No results found!!
+1348; Nadja;1995;local variable 'page_link' referenced before assignment
+1350; Safe;1995;'NoneType' object has no attribute 'get'
+1351; The Secret of Roan Inish;1995;No results found!!
+1353; Flirting with Disaster;1996;Unable to collect data
+1354; Welcome to the Dollhouse;1996;No results found!!
+1359; Touch;1997;Search failed after 2 attempts
+1362; Velvet Goldmine;1998;'NoneType' object has no attribute 'group'
+1363; Claire Dolan;1998;Timeout
+1364; Affliction;1998;local variable 'page_link' referenced before assignment
+1366; Election;1999;Search failed after 2 attempts
+1369; The Straight Story;1999;timed out
+1371; Crouching Tiger, Hidden Dragon;2000;local variable 'page_link' referenced before assignment
+1373; Chuck & Buck;2000;Search failed after 2 attempts
+1376; Memento;2001;local variable 'page_link' referenced before assignment
+1378; Stranger Inside;2001;local variable 'page_link' referenced before assignment
+1383; Lovely & Amazing;2002;local variable 'page_link' referenced before assignment
+1384; Ivans Xtc;2002;No results found!!
+1388; In America;2003;local variable 'page_link' referenced before assignment
+1389; Raising Victor Vargas;2003;No results found!!
+1393; The Motorcycle Diaries;2004;No results found!!
+1394; Baadasssss!;2004;No results found!!
+1396; Mysterious Skin;2005;No results found!!
+1405; The Diving Bell and the Butterfly ;2007;No results found!!
+1406; I'm Not There;2007;Search failed after 2 attempts
+1407; The Savages;2007;'NoneType' object has no attribute 'text'
+1410; The Visitor;2008;local variable 'page_link' referenced before assignment
+1411; Chop Shop;2008;No results found!!
+1417; Sin Nombre;2009;No results found!!
+1418; Two Lovers;2009;local variable 'page_link' referenced before assignment
+1419; The Last Station;2009;'NoneType' object has no attribute 'group'
+1420; Black Swan;2010;Timeout
+1426; Beginners;2011;local variable 'page_link' referenced before assignment
+1429; Drive;2011;'NoneType' object has no attribute 'text'
+1431; Moonrise Kingdom;2012;HTTP Error 504: Gateway Time-out
+1432; The Loneliest Planet;2012;No results found!!
+1435; Upstream Color;2013;Search failed after 2 attempts
+1436; All Is Lost;2013;Search failed after 2 attempts
+1437; Mud;2013;local variable 'page_link' referenced before assignment
+1441; Birdman or (The Unexpected Virtue of Ignorance)�;2014;local variable 'search_results' referenced before assignment
+1445; Carol;2015;'NoneType' object has no attribute 'text'
+1447; It Follows;2015;'NoneType' object has no attribute 'text'
+1454;La Dolce Vita;1961;No results found!!
+1455;Divorce Italian Style;1962;No results found!!
+1457;Woman in the Dunes;1965;No results found!!
+1460;The Battle of Algiers;1968;No results found!!
+1462;Fellini Satyricon;1970;No results found!!
+1464;Day for Night;1974;local variable 'page_link' referenced before assignment
+1465;Amarcord;1975;No results found!!
+1466;Face to Face;1976;local variable 'page_link' referenced before assignment
+1467;Seven Beauties;1976;No results found!!
+1468;La Cage aux Folles;1979;No results found!!
+1469;Das Boot;1982;No results found!!
+1470;Broadway Danny Rose;1984;Search failed after 2 attempts
+1471;Ran;1985;local variable 'page_link' referenced before assignment
+1473;My Life as a Dog;1987;No results found!!
+1479;Three Colors: Red;1994;No results found!!
+1481;The Sweet Hereafter;1997;'NoneType' object has no attribute 'group'
+1483;Talk to Her;2002;local variable 'page_link' referenced before assignment
+1484;City of God;2003;local variable 'page_link' referenced before assignment
+1490;The Old Man and the Sea;1958;Unable to collect data
+1492;Look Back in Anger;1959;'NoneType' object has no attribute 'group'
+1500;The Agony and the Ecstasy;1965;Unable to collect data
+1501;The Pawnbroker;1965;No results found!!
+1507;I Never Sang for My Father;1970;Unable to collect data
+1512;Electra Glide in Blue;1973;Search failed after 2 attempts
+1513;Save the Tiger;1973;Search failed after 2 attempts
+1521;A Special Day;1977;local variable 'page_link' referenced before assignment
+1533;The Grey Fox;1983;No results found!!
+1535;Star 80;1983;Unable to collect data
+1545;Dominick and Eugene;1988;Unable to collect data
+1546;Stand and Deliver;1988;Unable to collect data
+1547;Dad;1989;Search failed after 2 attempts
+1549;The Field;1990;Search failed after 2 attempts
+1558;Richard III;1995;'NoneType' object has no attribute 'group'
+1563;Affliction;1998;local variable 'page_link' referenced before assignment
+1568;The Sea Inside;2004;No results found!!
+1571;Venus;2006;'NoneType' object has no attribute 'text'
+1580;The Sessions;2012;Search failed after 2 attempts
+1581;Flight;2012;Search failed after 2 attempts
+1584;Steve Jobs;2015;Unable to collect data
+1587;Captain Fantastic;2016;Search failed after 2 attempts
+1589;The Hasty Heart;1949;HTTP Error 404: Not Found
+1591;Crime and Punishment U.S.A.;1960;No results found!!
+1593;Victim;1961;'NoneType' object has no attribute 'group'
+1594;Ballada o soldate;1961;No results found!!
+1596;Le Trou;1961;No results found!!
+1598;Term of Trial;1962;HTTP Error 404: Not Found
+1599;Lon Morin, prtre;1962;No results found!!
+1603;Une aussi longue absence;1962;No results found!!
+1604;Divorzio all'italiana;1963;No results found!!
+1605;Accattone;1963;No results found!!
+1607;Inspector Jacques Clouseau;1964;No results found!!
+1608;Ieri, oggi, domani;1964;No results found!!
+1609;Charade;1964;local variable 'page_link' referenced before assignment
+1610;Lilies of the Field;1964;No results found!!
+1612;William Ewart Gladstone;1966;No results found!!
+1613;The Pawnbroker;1966;No results found!!
+1614;Pierrot le Fou;1966;No results found!!
+1615;A Patch of Blue;1966;No results found!!
+1616;The Spy Who Came in from the Cold;1966;No results found!!
+1617;A Man for All Seasons;1967;local variable 'page_link' referenced before assignment
+1619;The Deadly Affair;1967;local variable 'page_link' referenced before assignment
+1620;Campanadas a medianoche;1967;No results found!!
+1621;Guess Who's Coming to Dinner;1968;local variable 'page_link' referenced before assignment
+1623;The Bofors Gun;1968;'NoneType' object has no attribute 'group'
+1624;Inadmissible Evidence;1969;No results found!!
+1625;Sundance Kid;1970;local variable 'page_link' referenced before assignment
+1626;Trapper John McIntyre;1970;No results found!!
+1627;Morte a Venezia;1971;local variable 'search_results' referenced before assignment
+1629;Little Big Man;1971;No results found!!
+1630;Jimmy "Popeye" Doyle;1972;No results found!!
+1631;Vito Corleone;1972;No results found!!
+1633;Ultimo tango a Parigi;1973;No results found!!
+1634;Sleuth;1973;local variable 'page_link' referenced before assignment
+1635;Serpico;1974;No results found!!
+1636;Michael Corleone;1975;No results found!!
+1637;Sonny Wortzik;1975;No results found!!
+1638;Jimmy "Popeye" Doyle;1975;No results found!!
+1639;Lenny;1975;local variable 'page_link' referenced before assignment
+1640;Carl Bernstein;1976;No results found!!
+1641;The Goodbye Girl;1978;local variable 'page_link' referenced before assignment
+1643;All That Jazz;1980;No results found!!
+1644;Raging Bull;1981;No results found!!
+1645;The Long Good Friday;1981;No results found!!
+1646;Reds;1982;local variable 'page_link' referenced before assignment
+1647;The Honorary Consul;1983;local variable 'search_results' referenced before assignment
+1648;Crocodile Dundee;1986;Search failed after 2 attempts
+1649;The Name of the Rose;1987;local variable 'page_link' referenced before assignment
+1651;Fatal Attraction;1988;No results found!!
+1652;Good Morning, Vietnam;1988;No results found!!
+1653;Rain Man;1989;local variable 'page_link' referenced before assignment
+1655;Born on the Fourth of July;1990;No results found!!
+1656;Cyrano de Bergerac;1991;No results found!!
+1657;Truly, Madly, Deeply;1991;No results found!!
+1661;Richard III;1996;'NoneType' object has no attribute 'text'
+1663;Life Is Beautiful (La vita  bella);1998;No results found!!
+1665;Topsy-Turvy;1999;'NoneType' object has no attribute 'group'
+1669;The Motorcycle Diaries (Diarios de motocicleta);2004;No results found!!
+1670;Casino Royale;2006;'NoneType' object has no attribute 'group'
+1671;The History Boys;2006;'NoneType' object has no attribute 'group'
+1672;Sex and Drugs and Rock and Roll;2009;local variable 'page_link' referenced before assignment
+1673;Biutiful;2010;No results found!!
+1675;Henry: Portrait of a Serial Killer;1990;local variable 'page_link' referenced before assignment
+1679;Rosencrantz & Guildenstern Are Dead;1991;No results found!!
+1680;Pastime;1991;local variable 'page_link' referenced before assignment
+1686;American Heart;1993;No results found!!
+1692;Little Odessa;1995;No results found!!
+1694;Swimming with Sharks;1995;No results found!!
+1696;Ulysses "Ulee" Jackson ;1997;No results found!!
+1697;Corky St. Clair;1997;No results found!!
+1698;Sydney Brown;1997;No results found!!
+1699;Al Fountain;1997;No results found!!
+1700;Bill Maplewood;1998;No results found!!
+1701;Wade Whitehouse ;1998;No results found!!
+1702;Eddie;1998;local variable 'page_link' referenced before assignment
+1703;John Williams;1998;No results found!!
+1704;Craig Schwartz;1999;No results found!!
+1705;Wilson;1999;local variable 'page_link' referenced before assignment
+1706;Joe "Jumpin" Gastineau;1999;No results found!!
+1707;Ace Barker;1999;No results found!!
+1708;Restaurant;2000;local variable 'page_link' referenced before assignment
+1709;Jesus' Son;2000;No results found!!
+1710;The Visit;2000;'NoneType' object has no attribute 'get'
+1714;Skins;2002;'NoneType' object has no attribute 'group'
+1715;Ivans Xtc;2002;No results found!!
+1719;Soldier's Girl;2003;No results found!!
+1722;Redemption;2004;Search failed after 2 attempts
+1723;Thank You for Smoking;2006;No results found!!
+1725;Man Push Cart;2006;No results found!!
+1726;The Savages;2007;'NoneType' object has no attribute 'text'
+1732;The Visitor;2008;local variable 'page_link' referenced before assignment
+1734;Goodbye Solo;2009;No results found!!
+1736;Daddy Longlegs;2010;No results found!!
+1739;A Better Life;2011;'NoneType' object has no attribute 'group'
+1742;Killer Joe;2012;No results found!!
+1743;Four;2012;'NoneType' object has no attribute 'text'
+1745;Jimi: All Is by My Side;2014;No results found!!
+1750;Free in Deed;2016;No results found!!
+1752;Blood Simple;1985;No results found!!
+1753;Crossover Dreams;1985;'NoneType' object has no attribute 'contents'
+1754;Wildrose;1985;No results found!!
+1761;Talk Radio;1988;Unable to collect data
+1762;Torch Song Trilogy;1988;Unable to collect data
+1765;Vampire's Kiss;1989;local variable 'page_link' referenced before assignment
+1772;Get Low;2010;No results found!!
+1776;Il Postino: The Postman (Il postino);1995;No results found!!
+1778;Life Is Beautiful (La vita è bella);1998;No results found!!
+1780;The Mark;1961;Search failed after 2 attempts
+1784;The Russians Are Coming, the Russians Are Coming;1966;Search failed after 2 attempts
+1792;The Great Santini;1980;No results found!!
+1797;Dark Eyes;1987;local variable 'page_link' referenced before assignment
+1800;Pelle the Conqueror;1988;No results found!!
+1801;Cyrano de Bergerac;1990;No results found!!
+1802;What's Love Got to Do with It;1993;'NoneType' object has no attribute 'group'
+1804;Il Postino;1995;No results found!!
+1816;Come Back, Little Sheba;1952;Unable to collect data
+1823;Baby Doll;1956;Search failed after 2 attempts
+1829;Wild is the Wind;1957;Timeout
+1839;Room at the Top;1959;'NoneType' object has no attribute 'group'
+1840;Sunrise at Campobello;1960;Timeout
+1857;Hemingway's Adventures of a Young Man;1962;'NoneType' object has no attribute 'contents'
+1860;The L-Shaped Room;1963;No results found!!
+1865;The Paper Man;1963;local variable 'page_link' referenced before assignment
+1866;The Conjugal Bed;1963;No results found!!
+1867;Love with the Proper Stranger;1963;Search failed after 2 attempts
+1878;A Man and a Woman;1966;local variable 'page_link' referenced before assignment
+1879;The Shop on Main Street;1966;No results found!!
+1882;This Property Is Condemned;1966;Search failed after 2 attempts
+1883;The Whisperers;1967;Search failed after 2 attempts
+1900;Women in Love;1970;local variable 'page_link' referenced before assignment
+1907;The Emigrants;1972;local variable 'page_link' referenced before assignment
+1908;Lady Sings the Blues;1972;Unable to collect data
+1910;One is a Lonely Number;1972;Timeout
+1914;The Exorcist;1973;'NoneType' object has no attribute 'group'
+1922;Scenes From a Marriage;1974;local variable 'page_link' referenced before assignment
+1929;The Incredible Sarah;1976;Unable to collect data
+1930;The Sailor Who Fell from Grace with the Sea;1976;Timeout
+1932;Face to Face;1976;local variable 'page_link' referenced before assignment
+1933;Julia;1977;'NoneType' object has no attribute 'group'
+1945;Yanks;1979;Unable to collect data
+1947;Promises in the Dark;1979;'NoneType' object has no attribute 'contents'
+1949;Resurrection;1980;Search failed after 2 attempts
+1950;Tess;1980;local variable 'page_link' referenced before assignment
+1991;A Cry in the Dark;1988;Timeout
+1995;Sex, Lies, and Videotape;1989;Search failed after 2 attempts
+1996;The Rose Garden;1989;Search failed after 2 attempts
+2006;Howards End;1992;Search failed after 2 attempts
+2011;The Piano;1993;'NoneType' object has no attribute 'group'
+2012;Three Colors: Blue;1993;No results found!!
+2013;The Age of Innocence;1993;Unable to collect data
+2016;Blue Sky;1994;Timeout
+2017;Nell;1994;Unable to collect data
+2025;Sense and Sensibility;1995;'NoneType' object has no attribute 'group'
+2028;The English Patient;1996;Search failed after 2 attempts
+2036;Elizabeth;1998;'NoneType' object has no attribute 'group'
+2037;Central Station;1998;No results found!!
+2053;Iris;2001;Search failed after 2 attempts
+2054;The Others;2001;Search failed after 2 attempts
+2056;The Hours;2002;'NoneType' object has no attribute 'group'
+2061;Veronica Guerin;2003;'NoneType' object has no attribute 'group'
+2063;Cold Mountain;2003;'NoneType' object has no attribute 'group'
+2064;Kill Bill: Volume 1;2003;No results found!!
+2070;Kill Bill: Volume 2;2004;No results found!!
+2076;The Queen;2006;Search failed after 2 attempts
+2077;Volver;2006;No results found!!
+2081;Away from Her;2007;No results found!!
+2085;Atonement;2007;'NoneType' object has no attribute 'group'
+2089;I've Loved You So Long;2008;'NoneType' object has no attribute 'group'
+2092;The Young Victoria;2009;'NoneType' object has no attribute 'group'
+2093;The Last Station;2009;'NoneType' object has no attribute 'group'
+2104;The Girl with the Dragon Tattoo;2011;Unable to collect data
+2105;We Need to Talk About Kevin;2011;Timeout
+2107;Rust and Bone;2012;'NoneType' object has no attribute 'group'
+2109;The Impossible;2012;'NoneType' object has no attribute 'get'
+2110;The Deep Blue Sea;2012;local variable 'page_link' referenced before assignment
+2112;Gravity;2013;'NoneType' object has no attribute 'text'
+2117;Cake;2014;'NoneType' object has no attribute 'get'
+2120;Wild;2014;'NoneType' object has no attribute 'text'
+2121;Room;2015;'NoneType' object has no attribute 'text'
+2122;Carol;2015;'NoneType' object has no attribute 'text'
+2125;Elle;2016;No results found!!
+2126;Arrival;2016;'NoneType' object has no attribute 'text'
+2129;Jackie;2016;Search failed after 2 attempts
+2136;The Heiress;1949;'NoneType' object has no attribute 'contents'
+2137;Saturday Night and Sunday Morning;1960;'NoneType' object has no attribute 'group'
+2141;The Sundowners;1961;local variable 'page_link' referenced before assignment
+2145;Life for Ruth;1962;local variable 'search_results' referenced before assignment
+2149;Sparrers Can't Sing;1963;No results found!!
+2150;Charade;1964;local variable 'page_link' referenced before assignment
+2152;The Americanization of Emily;1965;No results found!!
+2156;Doctor Zhivago;1966;No results found!!
+2159;Ulysses;1967;Search failed after 2 attempts
+2161;The Apartment;1960;Search failed after 2 attempts
+2162;The Angry Silence;1960;'NoneType' object has no attribute 'group'
+2164;Hiroshima mon amour;1960;No results found!!
+2165;The Adventure;1960;local variable 'page_link' referenced before assignment
+2166;Two Women;1961;local variable 'page_link' referenced before assignment
+2167;Rocco and His Brothers;1961;No results found!!
+2169;Breathless;1961;local variable 'page_link' referenced before assignment
+2170;Through a Glass Darkly;1962;No results found!!
+2171;Lola;1962;local variable 'page_link' referenced before assignment
+2172;Jules and Jim;1962;'NoneType' object has no attribute 'group'
+2173;Sweet Bird of Yout;1962;No results found!!
+2174;Splendor in the Grass;1962;No results found!!
+2176;Days of Wine and Roses;1963;No results found!!
+2177;Divorce Italian Style;1963;No results found!!
+2178;Sance on a Wet Afternoon;1964;timed out
+2179;Irma la Douce;1964;No results found!!
+2182;Zorba the Greek;1965;No results found!!
+2183;Viva Maria!;1966;No results found!!
+2185;The Sleeping Car Murders;1966;No results found!!
+2186;A Man and a Woman;1967;local variable 'page_link' referenced before assignment
+2187;Persona;1967;local variable 'page_link' referenced before assignment
+2189;The Deadly Affair;1967;local variable 'page_link' referenced before assignment
+2190;The Graduate;1968;local variable 'page_link' referenced before assignment
+2191;Beauty of the Day;1968;local variable 'page_link' referenced before assignment
+2192;Secret Ceremony;1969;No results found!!
+2194;Funny Girl;1969;No results found!!
+2195;Butch Cassidy and the Sundance Kid;1970;No results found!!
+2196;They Shoot Horses, Don't They?;1970;No results found!!
+2197;Cactus Flower;1970;No results found!!
+2203;The Butcher;1972;Search failed after 2 attempts
+2206;Just Before Nightfall;1973;No results found!!
+2209;Lady Sings the Blues;1973;local variable 'page_link' referenced before assignment
+2210;Summer Wishes, Winter Dreams;1974;No results found!!
+2211;The Way We Were;1974;No results found!!
+2212;The Autobiography of Miss Jane Pittman;1974;No results found!!
+2213;Alice Doesn't Live Here Anymore;1975;No results found!!
+2215;Lenny;1975;local variable 'page_link' referenced before assignment
+2216;Scenes from a Marriage;1975;local variable 'page_link' referenced before assignment
+2217;One Flew Over the Cuckoo's Nest;1976;No results found!!
+2221;Network;1977;local variable 'page_link' referenced before assignment
+2224;Julia;1978;local variable 'page_link' referenced before assignment
+2225;The Turning Point;1978;local variable 'page_link' referenced before assignment
+2226;The Goodbye Girl;1978;local variable 'page_link' referenced before assignment
+2228;California Suite;1979;No results found!!
+2229;The Deer Hunter;1979;No results found!!
+2230;My Brilliant Career;1980;No results found!!
+2231;Being There;1980;Search failed after 2 attempts
+2233;Kramer vs. Kramer;1980;No results found!!
+2234;Ordinary People;1981;local variable 'page_link' referenced before assignment
+2236;Coal Miner's Daughter;1981;No results found!!
+2237;On Golden Pond;1982;No results found!!
+2238;Reds;1982;local variable 'page_link' referenced before assignment
+2239;36 Chowringhee Lane;1982;No results found!!
+2241;Tootsie;1983;No results found!!
+2242;Another Time, Another Place;1983;'NoneType' object has no attribute 'contents'
+2243;Sophie's Choice;1983;No results found!!
+2245;Terms of Endearment;1984;No results found!!
+2247;Silkwood;1984;No results found!!
+2248;A Passage to India;1985;No results found!!
+2251;Letter to Brezhnev;1985;'NoneType' object has no attribute 'group'
+2252;A Room with a View;1986;No results found!!
+2254;Out of Africa;1986;No results found!!
+2258;Hope and Glory;1987;Unable to collect data
+2260;The Lonely Passion of Judith Hearne;1988;No results found!!
+2261;Babette's Feast;1988;No results found!!
+2262;Moonstruck;1988;No results found!!
+2265;Dangerous Liaisons;1989;No results found!!
+2266;The Accused;1989;local variable 'page_link' referenced before assignment
+2267;Working Girl;1989;local variable 'page_link' referenced before assignment
+2268;Driving Miss Daisy;1990;local variable 'page_link' referenced before assignment
+2270;The Fabulous Baker Boys;1990;No results found!!
+2272;Truly, Madly, Deeply;1991;No results found!!
+2274;Strictly Ballroom;1992;'NoneType' object has no attribute 'group'
+2275;Fried Green Tomatoes;1992;No results found!!
+2276;Tom and Viv;1993;local variable 'page_link' referenced before assignment
+2280;Three Colours: Red (Trois couleurs: Rouge);1994;No results found!!
+2281;Pulp Fiction;1994;'NoneType' object has no attribute 'group'
+2283;The Madness of King George;1995;No results found!!
+2291;East is East;1999;Search failed after 2 attempts
+2295;Boys Don't Cry;2000;No results found!!
+2296;Crouching Tiger, Hidden Dragon;2000;local variable 'page_link' referenced before assignment
+2297;Amlie;2001;No results found!!
+2298;Bridget Jones's Diary;2001;'NoneType' object has no attribute 'group'
+2299;Monster's Ball;2002;No results found!!
+2300;Chicago;2002;'NoneType' object has no attribute 'text'
+2302;The Mother;2003;Search failed after 2 attempts
+2305;Sylvia Llewelyn Davies;2004;No results found!!
+2306;House of Flying Daggers;2004;No results found!!
+2308;Mrs Henderson Presents;2005;'NoneType' object has no attribute 'group'
+2309;The Constant Gardener;2005;'NoneType' object has no attribute 'group'
+2316;Coco Before Chanel;2009;'NoneType' object has no attribute 'group'
+2317;The Girl with the Dragon Tattoo;2010;local variable 'page_link' referenced before assignment
+2320;My Week with Marilyn;2011;'NoneType' object has no attribute 'group'
+2335;Bright Angel;1991;No results found!!
+2336;The Search for Signs of Intelligent Life in the Universe;1991;No results found!!
+2339;Johnny Suede;1992;No results found!!
+2345;Just Another Girl on the I.R.T.;1993;Search failed after 2 attempts
+2346;Much Ado About Nothing;1993;Search failed after 2 attempts
+2349;Eat Drink Man Woman;1994;No results found!!
+2351;Nadja;1995;local variable 'page_link' referenced before assignment
+2352;Safe;1995;'NoneType' object has no attribute 'get'
+2359;In the Company of Men;1997;Timeout
+2361;Sunday;1997;Search failed after 2 attempts
+2362;Loved;1997;local variable 'page_link' referenced before assignment
+2365;The Opposite of Sex;1998;'NoneType' object has no attribute 'group'
+2366;Niagara, Niagara;1998;local variable 'page_link' referenced before assignment
+2370;Valerie Flake;1999;'NoneType' object has no attribute 'contents'
+2379;Lovely & Amazing;2002;local variable 'page_link' referenced before assignment
+2381;Blue Car;2003;No results found!!
+2383;In America;2003;Search failed after 2 attempts
+2384;Virgin;2003;Timeout
+2388;On the Outs;2004;Unable to collect data
+2392;Lackawanna Blues;2005;No results found!!
+2396;Sweet Land;2006;No results found!!
+2397;Land of Plenty;2006;No results found!!
+2398;Sorry, Haters;2006;No results found!!
+2403;Towelhead;2008;Search failed after 2 attempts
+2406;Downloading Nancy;2009;No results found!!
+2408;Two Lovers;2009;local variable 'page_link' referenced before assignment
+2415;Return;2012;Unable to collect data
+2416;Middle of Nowhere;2012;'NoneType' object has no attribute 'text'
+2423;The Immigrant;2014;'NoneType' object has no attribute 'group'
+2426;Only Lovers Left Alive;2014;No results found!!
+2436;Desert Hearts;1986;No results found!!
+2440;Working Girls;1987;'NoneType' object has no attribute 'text'
+2442;Five Corners;1988;No results found!!
+2444;The Wash;1988;'NoneType' object has no attribute 'contents'
+2446;Promised Land;1988;local variable 'page_link' referenced before assignment
+2449;Heathers;1989;local variable 'page_link' referenced before assignment
+2449;Heathers;1989;local variable 'page_link' referenced before assignment
+2452;The Contender;2000;Search failed after 2 attempts
+2460;Bridget Jones's Diary;2001;'NoneType' object has no attribute 'group'
+2461;Chicago;2002;'NoneType' object has no attribute 'text'
+2463;The Hours;2002;'NoneType' object has no attribute 'group'
+2468;Something's Gotta Give;2003;Search failed after 2 attempts
+2477;Mrs Henderson Presents;2005;'NoneType' object has no attribute 'group'
+2482;Volver;2006;No results found!!
+2486;Away from Her;2007;No results found!!
+2488;La Vie en Rose (La môme);2007;No results found!!
+2497;The Last Station;2009;'NoneType' object has no attribute 'group'
+2498;An Education;2009;Timeout
+2499;Precious;2009;Unable to collect data
+2510;My Week with Marilyn;2011;'NoneType' object has no attribute 'group'
+2513;Rust and Bone (De rouille et d'os);2012;No results found!!
+2515;The Impossible;2012;'NoneType' object has no attribute 'get'
+2517;Gravity;2013;'NoneType' object has no attribute 'text'
+2522;Cake;2014;'NoneType' object has no attribute 'get'
+2525;Wild;2014;'NoneType' object has no attribute 'text'
+2526;Room;2015;'NoneType' object has no attribute 'text'
+2527;Carol;2015;'NoneType' object has no attribute 'text'
+2532;Arrival;2016;'NoneType' object has no attribute 'text'
+2536;Nell;1994;'NoneType' object has no attribute 'group'
+2539;The Client;1994;timed out
+2545;Sense and Sensibility;1995;'NoneType' object has no attribute 'group'
+2556;She's So Lovely;1997;Timeout
+2558;Elizabeth;1998;'NoneType' object has no attribute 'group'
+2562;American Beauty;1999;Search failed after 2 attempts
+2563;Tumbleweeds;1999;Search failed after 2 attempts
+2565;Music of the Heart;1999;Search failed after 2 attempts
+2573;Marriage Italian Style;1964;No results found!!
+2589;Cousin Cousine;1976;local variable 'page_link' referenced before assignment
+2590;Carrie;1976;'NoneType' object has no attribute 'group'
+2595;The Rose;1979;Unable to collect data
+2596;Coal Miner's Daughter;1980;Search failed after 2 attempts
+2597;Private Benjamin;1980;Search failed after 2 attempts
+2599;Atlantic City;1981;local variable 'page_link' referenced before assignment
+2606;Moonstruck;1987;Search failed after 2 attempts
+2612;Camille Claudel;1989;No results found!!
+2616;Indochine;1992;No results found!!
+2617;What's Love Got to Do with It;1993;'NoneType' object has no attribute 'group'
+2623;Whale Rider;2003;No results found!!
+2627;Pride and Prejudice;2005;'NoneType' object has no attribute 'group'
+2628;The Savages;2007;'NoneType' object has no attribute 'text'
+2630;Two Days, One Night;2014;'NoneType' object has no attribute 'group'
